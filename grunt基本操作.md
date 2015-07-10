@@ -14,6 +14,7 @@
 输入`npm install`命令安装相应的nodejs插件
 
 新建 *Gruntfile.js*文件 
+`grunt build` build
 将src下的test1.js和test2.js合并到dest下的test.js并压缩成test.min.js，代码如下：
 >		module.exports = function(grunt) { // 配置 
 		grunt.initConfig({ 
