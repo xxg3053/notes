@@ -21,4 +21,21 @@ apache还有一个配置文件：httpd:conf 需要配置，以便php运行。位
     allow from all 
 
 如果不改这里的话，可能会出现 You don't have permission to access / on this server. 这样的错误提示，尤其在改变了默认主页的路径后。 
-注意：每次修改httpd:conf文件后，都要重启apache服务器。另外，如果你的win32系统上同时也运行iis服务器，那么就要先停止iis服务器的运行，然后再启动apache，否则apache服务器无法启动。 
+注意：每次修改httpd:conf文件后，都要重启apache服务器。另外，如果你的win32系统上同时也运行iis服务器，那么就要先停止iis服务器的运行，然后再启动apache，否则apache服务器无法启动。
+
+
+## 安装
+下载压缩包
+`httpd -k install` *安装服务*
+`httpd -k start` *启动服务*
+
+## 删除win服务
+
+`sc delete Apache2.2` 
+
+## 常见问题
+
+* 403 
+>	<Directory "D:/documents/ws">
+
+* 
