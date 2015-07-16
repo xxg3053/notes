@@ -1,4 +1,25 @@
 # [Mysql 开发技巧](http://www.imooc.com/learn/427)
+
+## 安装
+
+* 环境变量 
+  将bin目录添加到path中
+
+* 修改配置文件my-default.ini
+
+>	[mysqld]
+	basedir=C:\Program Files\MySQL\MySQL Server 5.6（mysql所在目录） 
+	datadir=C:\Program Files\MySQL\MySQL Server 5.6\data （mysql所在目录\data）
+
+* 设置服务
+`mysqld -install`
+
+* 启动服务
+`net start mysql`
+
+* 登录
+`mysql -u root -p`
+
 ## 行列转换
 1. `select a.user_name,kills from user1 a join user_kills b on a.id=b.user_id`
 	 **带有姓名的杀怪记录表**
