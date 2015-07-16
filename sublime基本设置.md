@@ -9,3 +9,10 @@
  `ctrl + shift + p install pageckage`
  `Material`
 
+* markdown
+
+* emmet (zen coding)
+
+* less
+
+* sass
