@@ -8,3 +8,15 @@
 * 新的特殊内容元素，比如 article、footer、header、nav、section
 * 新的表单控件，比如 calendar、date、time、email、url、search
 
+
+## 服务器发送事件（server-sent event）允许网页获得来自服务器的更新
+
+## 新的 Input 类型
+
+* email
+* url
+* number
+* range
+* Date pickers (date, month, week, time, datetime, datetime-local)
+* search
+* color
