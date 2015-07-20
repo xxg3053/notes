@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Study AngularJs</title>
+</head>
+<body ng-app="studyAngular">
+<div ng-controller="shuangXiangCtrl">
+	Name：<input type="text" ng-model="name" /> <br>
+	Hello：<span ng-bind="name"></span>
+
+	
+</div>
+
+<script src="bower_components/angular/angular.min.js"></script>
+<script>
+angular.module("studyAngular",[])
+.controller('shuangXiangCtrl', function($scope){
+	$scope.name="AngularJs";
+})
+
+
+</script>
+</body>
+</html>
