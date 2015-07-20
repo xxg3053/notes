@@ -1,0 +1,83 @@
+# App
+
+Mobile App分为三大类：Native App,Hybrid App,Web App。其中Hybrid App介于Native App和Web App之间，它能兼顾Native App的良好用户体验及强大的功能并具有Web App跨平台快速开发的优势。缺点在于依赖于各平台的WebView，WebView的性能好坏直接决定了Hybrid App的性能。 
+
+## nodejs
+
+>	JavaScript是一种运行在浏览器的脚本，它简单，轻巧，易于编辑，这种脚本通常用于浏览器的前端编程，但是一位开发者Ryan有一天发现这种前端式的脚本语言可以运行在服务器上的时候，一场席卷全球的风暴就开始了。
+Node.js是一个基于Chrome JavaScript运行时建立的平台， 用于方便地搭建响应速度快、易于扩展的网络应用。Node.js 使用事件驱动， 非阻塞I/O 模型而得以轻量和高效，非常适合在分布式设备上运行的数据密集型的实时应用。
+V8引擎执行Javascript的速度非常快，性能非常好。
+Node是一个Javascript运行环境(runtime)。实际上它是对Google V8引擎进行了封装。V8引 擎执行Javascript的速度非常快，性能非常好。Node对一些特殊用例进行了优化，提供了替代的API，使得V8在非浏览器环境下运行得更好。
+
+## npm
+
+>	npm是node的包管理器，我们在开发nodejs应用程序的过程中，可能需要依赖许许多多的第三方模块以提高开发效率，那么此时，我们就需要npm来辅助安装所需package。
+
+## Cordova (PhoneGap)
+
+>	PhoneGap是一个用基于HTML，CSS和JavaScript的，创建移动跨平台移动应用程序的快速开发平台。它使开发者能够利用iPhone，Android，Palm，Symbian,WP7,WP8,Bada和Blackberry智能手机的核心功能——包括地理定位，加速器，联系人，声音和振动等，此外PhoneGap拥有丰富的插件，可以调用。
+业界很多主流的移动开发框架均源于PhoneGap。较著名的有Worklight、appMobi、WeX5等；其中WeX5为国内打造，完全Apache开源，在融合Phonegap的基础上，做了深度优化，具备接近Native app的性能，同时开发便捷性也较好。
+
+#### phonegap前景分析
+
+1. Phonegap是Adobe公司旗下的开源跨平台移动应用软件开发框架,拥有丰富的api接口,轻松访问原生功能
+2. 会html css  js就可以开发跨7个平台的移动软件开发框架(written once run everywhere)
+3. 几乎原生开发能完成的功能 phonegap都能完成
+4. 开发成本低  最多是原生App的五分之一！
+
+## AngularJS
+
+>	AngularJS诞生于2009年，由Misko Hevery 等人创建，后为Google所收购。是一款优秀的前端JS框架，已经被用于Google的多款产品当中。AngularJS有着诸多特性，最为核心的是：MVVM、模块化、自动化双向数据绑定、语义化标签、依赖注入、等等。
+
+1.MVC
+2.模块化与依赖注入
+3.双向数据绑定
+4.指令与 UI 控件
+
+## ionic
+
+>	Ionic 是一个强大的 HTML5 应用程序开发框架，号称 Advanced HTML5 Hybrid Mobile AppFramework 是 AngularJS 移动端解决方案 可以帮助您使用 Web 技术，比如 HTML、 CSS 和Javascript 构建接近原生体验的移动应用程序。 Ionic 主要关注外观和体验，以及和你的应用程序的 UI 交互，特别适合用于基于 Hybird 模式的 HTML5 移动应用程序开发。
+Ionic 是一个轻量的手机 UI 库，具有速度快，界面现代化、美观等特点。为了解决其他一些UI 库在手机上运行缓慢的问题。
+
+
+## 移动WebApp开发框架对比
+
+* Sencha Touch
+	* 优点
+		* 用户体验最接近Native App， 具有整体的UI组件、布局解决方案；
+		* 统一的编程代码结构和要求，良好组织的代码易于维护；
+		* 继承ExtJS 4的应用程序MVC架构；
+		* 完善的API文档，示例；活跃的社区，网上有大量的文档书籍帮助学习.
+	* 缺点
+		* 兼容性差，仅支持webkit内核的浏览器；
+		* 框架比较重量级，学习成本比较高；
+		* 商业化使用有版权问题
+
+* jQuery Mobile
+	* 优点
+		* 跨浏览器兼容性最好，几乎兼容所有的平台和浏览器；
+		* 入门简单，语法简洁，编码灵活，一些简单的应用直接用HTML既可实现，无需Javascript；
+		* 开源插件与第三方扩展网上资源丰富； 
+		* 完善的API文档，示例；活跃的社区，网上有大量的文档书籍帮助学习；
+	* 缺点
+		* jQuery Mobile对代码没有特定的要求，后期维护难度较大；
+
+* Dojo Mobile
+	* 优点
+		* Dojo本身有很多优秀的设计，面向对象、MVC、JS模块化加载；
+		* 完善的API文档，示例；活跃的社区，网上有大量的文档书籍帮助学习；
+	* 缺点
+		* Dojo Mobile需要依赖完整的dojo库，压缩之后的代码140k，gzip压缩之后在40k；
+		* 兼容性差，仅支持webkit内核的浏览器；
+		* 学习成本高；
+
+
+* Jqmobi（Intel's App Framework）
+
+* ionic
+
+* GMU 
+
+
+
+
