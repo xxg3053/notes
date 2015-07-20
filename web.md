@@ -73,10 +73,28 @@ Ionic 是一个轻量的手机 UI 库，具有速度快，界面现代化、美�
 
 
 * Jqmobi（Intel's App Framework）
+	* 优点
+		* 没有什么突出的优点，感觉是与Sencha非常相似的一个框架；
+	* 缺点
+		* 兼容性相比Sencha Touch稍好一点，但是也不支持WP IE、Firefox、Opera；
 
 * ionic
+	* 优点：
+		* 性能优异
+		* 基于红的发紫AngularJs
+		* 漂亮的UI
+		* 强大的命令行(基于更热门的nodejs)
+		* 开发团队非常活跃，
+		* 相关配套非常齐全：
+		    * 相对充足的学习资料，Learn Iconic,The Iconic book
+		    * ngcordova，将主流的Cordova API或者Cordova插件封装为AngularJS扩展，使用非常方便。
+		    * 开源免费的webfont icon库ionicons,基本满足你icon需求。
+		    * 甚至最近开发出的可视化开发工具Ionic Creator
+			* 异常活跃的在线社区
+
 
 * GMU 
+	* 好像挂掉了
 
 
 
