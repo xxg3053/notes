@@ -39,6 +39,8 @@ Node是一个Javascript运行环境(runtime)。实际上它是对Google V8引擎
 >	Ionic 是一个强大的 HTML5 应用程序开发框架，号称 Advanced HTML5 Hybrid Mobile AppFramework 是 AngularJS 移动端解决方案 可以帮助您使用 Web 技术，比如 HTML、 CSS 和Javascript 构建接近原生体验的移动应用程序。 Ionic 主要关注外观和体验，以及和你的应用程序的 UI 交互，特别适合用于基于 Hybird 模式的 HTML5 移动应用程序开发。
 Ionic 是一个轻量的手机 UI 库，具有速度快，界面现代化、美观等特点。为了解决其他一些UI 库在手机上运行缓慢的问题。
 
+## SQLite (localStorage有5M的限制)
+>	SQLite 是一个开源的嵌入式关系数据库，实现自包容、零配置、支持事务的SQL数据库引擎。 其特点是高度便携、使用方便、结构紧凑、高效、可靠。 与其他数据库管理系统不同，SQLite 的安装和运行非常简单，在大多数情况下 - 只要确保SQLite的二进制文件存在即可开始创建、连接和使用数据库。如果您正在寻找一个嵌入式数据库项目或解决方案，SQLite是绝对值得考虑
 
 ## 移动WebApp开发框架对比
 
