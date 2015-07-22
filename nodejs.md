@@ -12,3 +12,10 @@
 * 在配置文件 ~/.npmrc 文件写入源地址 (永久)
 `nano ~/.npmrc `  //打开配置文件
 `registry =https://registry.npm.taobao.org `  //写入配置文件
+
+* 更新npm库
+`npm update -g`
+
+* 更新Nodejs自身
+`npm install -g n`
+`n latest`
