@@ -8,17 +8,20 @@ Mobile App分为三大类：Native App,Hybrid App,Web App。其中Hybrid App介�
 
 >	1. 在受访的2309个Mobile开发者中，到2013年8月为止完全使用Native开发的只有8%，而剩余的92%都可以被认为使用的是Hybrid
 
-[^nativeDebate]:[http://www.telerik.com/support/kendo-ui](http://www.telerik.com/support/kendo-ui)
+[^nativeDebate]:[KendoUI 2013年调查报告](http://www.telerik.com/support/kendo-ui)
 
 ## 相关技术
 
-* less/sass：css的预处理器。
-* bower：管理依赖的JS库。
-* grunt：作为项目打包工具。
-* [nodejs](#nodejs)
-* [Cordova](#cordova)
-* [AngularJS](#angularjs)
-* [SQLite](#sqlite)
+1.less/sass：css的预处理器。
+2.bower[^bowerAPI]：管理依赖的JS库。
+3.grunt[^gruntAPI]：作为项目打包工具。
+4.[nodejs](#nodejs)
+5.[Cordova](#cordova)
+6.[AngularJS](#angularjs)
+7.[SQLite](#sqlite)
+
+[^bowerAPI]: [Bower](http://bower.io/)
+[^gruntAPI]: [Grunt](http://www.gulpjs.com.cn/)
 
 ## nodejs
 
@@ -45,7 +48,7 @@ Node是一个Javascript运行环境(runtime)。实际上它是对Google V8引擎
 
 时下流行的移动Web应用可分为三种：原生应用、Web应用和混合型应用（*引用* [^yqd]）。
 
-[^yqd]:[http://express.ruanko.com/ruanko-express_74/technologyexchange6.html](http://express.ruanko.com/ruanko-express_74/technologyexchange6.html)
+[^yqd]:[移动web优缺点](http://express.ruanko.com/ruanko-express_74/technologyexchange6.html)
 
 1. 原生应用：通过各种应用市场安装，采用平台特定语言开发。
 2. Web应用：通过浏览器访问，采用Web技术开发。
@@ -103,6 +106,10 @@ PhoneGap在Web应用和设备之间搭建了一个通信的桥梁，封装了移
 
 [^cordovaPlugin]:[Cordova Plugin Registry](http://plugins.cordova.io/npm/index.html)
 
+#### 学习
+
+* [API](http://docs.phonegap.com/zh/edge/index.html)
+
 ## AngularJS
 
 >	AngularJS诞生于2009年，由Misko Hevery 等人创建，后为Google所收购。是一款优秀的前端JS框架，已经被用于Google的多款产品当中。AngularJS有着诸多特性，最为核心的是：MVVM、模块化、自动化双向数据绑定、语义化标签、依赖注入、等等。
@@ -113,6 +120,14 @@ PhoneGap在Web应用和设备之间搭建了一个通信的桥梁，封装了移
 2. 模块化与依赖注入
 3. 双向数据绑定
 4. 指令与 UI 控件
+
+#### 学习
+
+* [API](http://docs.angularjs.cn/api/)
+* [学习资料](https://github.com/jmcunningham/AngularJS-Learning/blob/master/ZH-CN.md) 
+* [目录结构设计](http://trochette.github.io/Angular-Design-Patterns-Best-Practices/#/intro)
+* [广告贴](https://ruby-china.org/topics/24111?page=2#replies)
+
 
 ## ionic
 
@@ -137,6 +152,10 @@ Ionic 是一个轻量的手机 UI 库，具有速度快，界面现代化、美�
 `ionic run android` *连接手机打开*
 `ionic serve` *使用浏览器打开*
 
+#### 学习
+
+* [API](http://www.ionic.wang/)
+* [视频资料](http://www.ionic.wang/course-index.html)
 
 ## SQLite 
 
@@ -146,6 +165,7 @@ Ionic 是一个轻量的手机 UI 库，具有速度快，界面现代化、美�
 ## 移动WebApp开发框架对比
 
 #### Sencha Touch
+*原来的EXTjs*
 
 * 优点
 	* 用户体验最接近Native App， 具有整体的UI组件、布局解决方案；
@@ -212,7 +232,27 @@ Ionic 是一个轻量的手机 UI 库，具有速度快，界面现代化、美�
 
 #### 目录结构
 
-![目录结构](http://localhost:9995/notes/img/icondir.png)
+	Project
+	├── hooks
+	├── platforms
+	├── plugins
+	├── resources
+	├── scss
+	├── www         	前端代码
+	│    ├── css    	样式
+	│    ├── html   	模板
+	│    ├── img    	图片
+	│    ├── js          js
+	│    ├── lib		ionic库，不需要修改
+	│    ├── index.html  主页
+	├── .bowerrc
+	├── .gitignore
+	├── bower.json
+	├── config.xml
+	├── gulpfile.js
+	├── ionic.project
+	├── package.json
+
 
 #### index.html
 >		<!DOCTYPE html>

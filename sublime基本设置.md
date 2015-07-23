@@ -9,6 +9,8 @@
  `ctrl + shift + p install pageckage`
  `Material`
 
+#### 插件
+
 * markdown
 
 * emmet (zen coding)
@@ -18,3 +20,8 @@
 * sass
 
 * angularjs
+
+* jade
+
+* expressComplete
+
