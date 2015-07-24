@@ -61,7 +61,7 @@ js包管理工具 bower.json
 
 #### [NodeJS](https://github.com/xxg3053/notes/blob/master/nodejs.md)
 
-解决高并发，不擅长逻辑处理
+解决高并发，不擅长逻辑处理  package.json
 
 #### [Express](https://github.com/xxg3053/notes/blob/master/express.md)
 
