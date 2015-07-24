@@ -148,9 +148,9 @@ Ionic 是一个轻量的手机 UI 库，具有速度快，界面现代化、美�
 	* Android SDK Build-tools
 
 `ionic emulate android`       *启动android 虚拟机*
-`adb devices` *查看连接的设备*
-`ionic run android` *连接手机打开*
-`ionic serve` *使用浏览器打开*
+`adb devices` 				  *查看连接的设备*
+`ionic run android` 		  *连接手机打开*
+`ionic serve` 				  *使用浏览器打开*
 
 #### 学习
 
