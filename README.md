@@ -14,8 +14,6 @@ imooc jike等学习笔记以及安装、基本命令
 
 混合开发领先者
 
-## [NodeJS](https://github.com/xxg3053/notes/blob/master/nodejs.md)
-
 ## Database
 
 #### [SQLite](https://github.com/xxg3053/notes/blob/master/SQLite.md)
@@ -60,6 +58,10 @@ js包管理工具 bower.json
 #### [Apache](https://github.com/xxg3053/notes/blob/master/apache.md)
 
 世界使用第一的web服务器软件
+
+#### [NodeJS](https://github.com/xxg3053/notes/blob/master/nodejs.md)
+
+解决高并发，不擅长逻辑处理
 
 #### [Express](https://github.com/xxg3053/notes/blob/master/express.md)
 
