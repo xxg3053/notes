@@ -7,6 +7,13 @@
 
 `bower init` *生成当前项目的bower.json*
 
+新增.bowerrc 文件设置下载目录：
+>	{
+	  "directory" : "dist/public/components"
+	}
+
+
+
 `bower register svg https://github.com/kenfo/svg.git` *将svg.git注册到bower库里面*
 
 `bower install svg` 下载svg项目

@@ -26,3 +26,7 @@
 * expressComplete
 
 * nodejs
+
+* color highlighter
+
+* color picker
