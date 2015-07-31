@@ -11,6 +11,8 @@
 
 #### 插件
 
+* Material 皮肤
+
 * markdown
 
 * emmet (zen coding)
@@ -21,12 +23,14 @@
 
 * angularjs
 
-* jade
+* jade  html模板
 
 * expressComplete
 
 * nodejs
 
-* color highlighter
+* color highlighter  显示颜色
+ 
+* color picker   拾取颜色
 
-* color picker
+* DocBlockr 自动补全注释
