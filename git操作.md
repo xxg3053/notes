@@ -27,3 +27,11 @@
 在项目界面按`t`进入查找界面 `ESC`退出
 
 在项目的`setting`里面删除项目
+
+`git branch -a  ` 查看远程分支
+
+`git branch` 查看本地分支
+
+`git checkout secondBranch` 切换到secondBranch分支
+
+`git branch -d xxxxx` 删除本地分支
