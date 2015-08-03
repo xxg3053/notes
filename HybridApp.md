@@ -219,6 +219,15 @@ Ionic 是一个轻量的手机 UI 库，具有速度快，界面现代化、美�
 
 * 好像挂掉了
 
+#### React-Native
+
+**facebook开源的移动开发框架**
+
+	能解决大部分ui性能问题
+	最值得期待的移动app解决方案
+	
+[教程](http://wiki.jikexueyuan.com/project/react-native/)
+
 #### 其他
 
 * Ratchet 
