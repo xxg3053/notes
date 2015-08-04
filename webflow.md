@@ -1,15 +1,18 @@
 [TOC]
 # WEB网站设计流程
 
-## 流程图
+## 开发流程图
 
+![流程图](img/webflow2.png)
+
+#### 前端详细流程图
 
 ![流程图](img/webflow.png)
 
 ## 借鉴
 
 
-### [AA公司流程](http://www.yixieshi.com/ucd/3729.html)：
+### [AA公司流程](http://www.yixieshi.com/ucd/3729.html)
 
 	需求调研——制作BRD——BRD评审——
 	项目启动会——featurelist、DEMO——featurelist评审——
@@ -36,7 +39,7 @@
 将交互稿转成静态html网站
 
 ### 后端开发工程师
-业务逻辑开发
+业务逻辑开发，多平台接口开发
 
 ### 测试工程师
 
