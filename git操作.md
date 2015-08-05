@@ -1,4 +1,7 @@
 #github基本操作
+
+[Git 使用规范流程](http://www.ruanyifeng.com/blog/2015/08/git-use-process.html)
+
 `git init` 添加到版本管理
 
 新建**.gitignore**文件，写入不需要push的文件 eg:*node_modules bower_components .idea ....*
