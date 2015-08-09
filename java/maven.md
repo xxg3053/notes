@@ -21,10 +21,9 @@ Maven是基于项目对象模型（POM)，可以通过一小段描述信息来�
 pom.xml 是maven重要组成部分
 
 	<modelVersion> maven 版本
-	<groupId> 项目包名
-	<artifactId> 模块名(项目名)
-	<version> 项目版本 snapshot快照
-
+	<groupId> 反写公司网址+项目名
+	<artifactId> 项目名+模块名
+	<version> 项目版本 
 	<dependencies> 依赖
 		<dependency>
 		   <groupId>junit</groupId>
@@ -32,6 +31,15 @@ pom.xml 是maven重要组成部分
 		   <version>4.10</version>
 		</dependency>
 
+### 版本
+**1.0.0**
+第一个0是大版本号 第二个0是分支版本号，第三个0表示小版本号 
+
+* snapshot 	快照；
+* alpha	内部测试；
+* beta	公测；
+* release	稳定；
+* GA	正式发布
 
 ## 命令
 
@@ -69,7 +77,7 @@ eclipse运行在独立的jre上
 	* site-deploy 发布生成的站点到服务器上
 
 ### 插件
- 在pom.xml中添加：
- <plugins></plugins>
+在pom.xml中添加：
+`<plugins></plugins>`
 
 
