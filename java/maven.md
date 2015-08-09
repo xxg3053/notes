@@ -133,7 +133,9 @@ plugin jetty || plugin tomcat
 		</plugin>
 	</plugins>
 
-
+### 部署:
+* run as maven bulid
+* clean package 
 
 ## 总结
 
