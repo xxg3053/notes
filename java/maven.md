@@ -101,6 +101,38 @@ eclipse运行在独立的jre上
 
 ## WEB项目
 new -> maven -> webapp
+plugin jetty || plugin tomcat
+
+### code
+
+	<plugins>
+		<plugin>
+			<groupId>org.eclipse.jetty</groupId>
+			<artifactId>jetty-server</artifactId>
+			<version>9.3.2.v20150730</version>
+			<executions>
+				<execution>
+					<!--在打包成功后使用jetty:run来运行jetty服务-->
+					<phase>package</phase>
+					<goals>
+						<goal>run</goal>
+					</goals>
+				</execution>
+			</executions>
+		</plugin>
+	</plugins>
+
+
+
+## 总结
+
+* maven下载和环境搭建
+* maven目录骨架说明
+* 常用的maven命令
+* 仓库和坐标
+* 在eclipse安装和创建maven项目
+* 生命周期、pom.xml以及依赖、集合、继承
+* eclipse中常见web项目和jetty插件安装
 
 
 
