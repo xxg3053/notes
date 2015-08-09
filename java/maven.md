@@ -32,10 +32,10 @@
 
 ## 命令
 
-`mvn -v`
-`cd 项目目录`
-`mvn compile`  编译
-`mvn test` 	   执行测试
-`mvn package`  打包
-`mvn clean`    删除target
-`mvn install`  安装jar包到本地仓库
+	`mvn -v`
+	`cd 项目目录`
+	`mvn compile`  编译
+	`mvn test` 	   执行测试
+	`mvn package`  打包
+	`mvn clean`    删除target
+	`mvn install`  安装jar包到本地仓库
