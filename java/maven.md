@@ -80,6 +80,9 @@ jdk里面的jre
 eclipse运行在独立的jre上
 两套jre的区别：？
 
+Preferences -> Maven -> Installations 指向安装好的maven
+Preferences -> Maven -> User Settings 设置settiings.xml
+
 ## 生命周期
 完整的项目构建过程：
 	**清理、编译、测试、打包、集成测试、验证、部署**
@@ -100,7 +103,15 @@ eclipse运行在独立的jre上
 `<plugins></plugins>`
 
 ## WEB项目
-new -> maven -> webapp
+1. new -> maven -> webapp
+2. add package src.main.java src.test.java
+3. build path -> source -> output folder
+4. project -> properties -> Project Facets -> Dynamic Web Module + java
+5. properyies -> Deployment Assembly :
+	1. 删除test发布
+	2. src/main/java -> WEB-INF/Classes
+	
+2. bulid path -> 
 plugin jetty || plugin tomcat
 
 ### code
