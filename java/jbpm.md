@@ -17,7 +17,7 @@
 * ProcessInstance 流程实例
 * Token 流程顺序
 
->	public static void main(String[] args){
+	public static void main(String[] args){
 		ProcessDefinition processDefinition = 
 			ProcessDefinition.parseXmlResource("helloworld/processdefinition.xml"); //流程模板
 		ProcessInstance processInstance = new ProcessInstance(processDefinition); // 流程实例
