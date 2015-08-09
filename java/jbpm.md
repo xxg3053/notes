@@ -17,12 +17,13 @@
 * ProcessInstance 流程实例
 * Token 流程顺序
 
+#### code
+
 	public static void main(String[] args){
 		ProcessDefinition processDefinition = 
 			ProcessDefinition.parseXmlResource("helloworld/processdefinition.xml"); //流程模板
 		ProcessInstance processInstance = new ProcessInstance(processDefinition); // 流程实例
 		Token token = processInstance.getRootToken(); //流程
-
 		System.out.println("1 当前流程所处的节点名称：" + token.getNode().getName()); 
 		token.signal(); //流程向下异步
 
