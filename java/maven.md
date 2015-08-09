@@ -31,6 +31,25 @@ pom.xml 是maven重要组成部分
 		   <version>4.10</version>
 		</dependency>
 
+* name 项目描述名
+* url 项目地址
+* description 项目描述
+* developers 开发人员列表
+* licenses 许可证信息
+* organization 组织信息
+* dependencies 依赖列表
+	* dependency 依赖项
+* scope 依赖范围 eg:test 只在测试中用
+* optional 这是以依赖是否可选，默认false
+* exclusions 排除依赖传递列表
+	* exclusion 排除依赖项
+* dependencyManagerment 父类中使用，类似接口
+* build 构建
+	* plugins 插件列表
+		* plugin 
+* parent 用于子模块中对父模块的集成
+* modules 
+
 ### 版本
 **1.0.0**
 第一个0是大版本号 第二个0是分支版本号，第三个0表示小版本号 
@@ -79,5 +98,9 @@ eclipse运行在独立的jre上
 ### 插件
 在pom.xml中添加：
 `<plugins></plugins>`
+
+## WEB项目
+new -> maven -> webapp
+
 
 
