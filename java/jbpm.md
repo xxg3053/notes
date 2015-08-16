@@ -96,6 +96,7 @@ Java Business Process Management(业务流程管理)
 ## 遇到的问题
 
 1. 数据库导入问题 type=InnoDB; 改为 engine=InnoDB;
+
 2. org.hibernate.exception.ConstraintViolationException: could not delete,连接Mysql5时，jBPM4运行到 End结点时的错误，把 hibernate.dialect 改为 `org.hibernate.dialect.MySQLInnoDBDialect`
 3. 乱码：在eclipse快捷方式->目标和启动文件eclipse.ini的后面加入 `-Dfile.encoding=UTF-8`
 
