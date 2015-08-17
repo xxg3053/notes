@@ -13,6 +13,10 @@
 	  eg:` <localRepository>D:\maven_repository</localRepository> `
 	* 
 
+## 优化
+* window - preferences - start - 把不取消的去掉 eg:
+* project Explorer - 小山角 - custom view - conten - jave ee navigator content web 去掉 (loading descriptor for ...)
+
 
 
 

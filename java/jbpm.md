@@ -1,5 +1,6 @@
 # JBPM
 Java Business Process Management(业务流程管理)
+[文档](http://docs.jboss.com/jbpm/)
 
 ## 发展历程
 如果说数据库系统（Database Systems)的发展历程像受人尊敬的的智者讲述条理清晰的故事，那么工作流（Workflow)的发展历程就像一个乳臭未干的小子们在大谈各自的“哲理”[^history]
@@ -57,6 +58,8 @@ Java Business Process Management(业务流程管理)
 * ProcessDefinition 流程模板
 * ProcessInstance 流程实例
 * Token 流程顺序
+
+
 
 #### code
 
@@ -176,3 +179,17 @@ Java Business Process Management(业务流程管理)
 	Ø jbpm4_hist_actinst (活动节点实例表)：新增一条记录
 	审批结束
 	Ø jbpm4_hist_actinst (活动节点实例表)：新增一条记录
+
+## 基本类
+
+1. 流程引擎 ProcessEngine processEngine = Configuration.getProcessEngine();
+2. 流程定义管理RepositoryService repositoryService = processEngine.getRepositoryService();
+3. 执行管理ExecutionService executionService = processEngine.getExecutionService();
+4. 任务管理TaskService taskService = processEngine.getTaskService();
+5. 历史管理HistoryService historyService = processEngine.getHistoryService();
+6. 用户管理IdentityService identityService= processEngine.getIdentityService();
+
+
+## ProcessDefinition/ProcessInstance/Execution/Task关系和区别
+
+[区别](http://zybing.iteye.com/blog/746088)
