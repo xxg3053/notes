@@ -45,3 +45,10 @@
 ## 列转行
 1. `alter table user1 add column mobile varchar(100)` **新增一列**
 2. [较复杂](http://www.imooc.com/video/8275)
+
+## 远程登录
+
+1. nano /etc/mysql/my.cnf找到bind-address = 127.0.0.1 注释掉
+2. sudo /etc/init.d/mysql restart
+3. grant all privileges on *.* to root@"%" identified by "password" with grant option;
+4. flush privileges;
