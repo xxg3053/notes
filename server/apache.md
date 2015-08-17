@@ -39,3 +39,9 @@ apache还有一个配置文件：httpd:conf 需要配置，以便php运行。位
 >	<Directory "D:/documents/ws">
 
 * 
+
+
+## ubuntu 下安装
+`apt-get install apache2`
+apache的默认文档根目录是在ubuntu上的/var/www目录 ,配置文件是/ etc/apache2/apache2.conf。配置存储在的子目录在/etc/apache2目录。
+

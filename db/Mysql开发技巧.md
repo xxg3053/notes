@@ -2,6 +2,8 @@
 
 ## 安装
 
+* ubuntu 下 `apt-get install mysql-server mysql-client`
+
 * 环境变量 
   将bin目录添加到path中
 
