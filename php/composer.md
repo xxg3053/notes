@@ -15,3 +15,8 @@
 
 	<?php
 	require 'vendor/autoload.php';
+
+## ubuntu 安装
+`curl -sS https://getcomposer.org/installer | php  `
+`mv composer.phar /usr/local/bin/composer `
+`composer install`

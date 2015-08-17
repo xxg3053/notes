@@ -15,7 +15,7 @@
 
 * markdown
 
-* emmet (zen coding)
+* emmet (zen coding)  tab鍵
 
 * less
 
@@ -34,3 +34,7 @@
 * color picker   拾取颜色
 
 * DocBlockr 自动补全注释
+
+* pretty json  
+	* ctrl+alt+j 格式化json字符串
+	* ctrl+alt+m 压缩json字符串

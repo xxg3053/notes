@@ -34,3 +34,21 @@
 
 ### php5获得mysql的支持
 `apt-get install php5-mysql php5-curl php5-gd php5-idn php-pear php5-imagick php5-imap php5-mcrypt php5-memcache php5-ming php5-ps php5-pspell php5-recode php5-snmp php5-sqlite php5-tidy php5-xmlrpc php5-xsl`
+
+## Question
+
+#### 页面错误提示
+//禁用错误报告  
+`error_reporting(0);  `
+//报告运行时错误  
+`error_reporting(E_ERROR | E_WARNING | E_PARSE);  `
+//报告所有错误  
+`error_reporting(E_ALL);`
+
+#### 升級
+执行以下命令即可。
+
+1. add-apt-repository ppa:ondrej/php5
+2. apt-get update
+3. apt-get upgrade
+4. apt-get dist-upgrade
