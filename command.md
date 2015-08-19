@@ -10,3 +10,4 @@
 	`screen -ls` 查看
 	`screen -r 1038 ` 进去
 	`ctrl+a+k` 关掉
+	`screen -D  -r ＜session-id>`  状态为Attached的解决办法
