@@ -98,3 +98,9 @@
 	        console.log(err);
 	    }
 	});
+
+
+## ubuntu 下安装
+`apt-get install mongodb`
+`nano /etc/mongodb.conf`修改配置
+`mongod -f /etc/mongodb.conf`以配置文件方式启动

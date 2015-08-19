@@ -4,3 +4,9 @@
 `rm -rf 文件夹名`
 `cp -r 源文件或目录 目标文件或目录`
 `rename xx xx `文件重命名
+
+	`screen -S screenName`
+	`ctrl+a+d 最小化`
+	`screen -ls` 查看
+	`screen -r 1038 ` 进去
+	`ctrl+a+k` 关掉
