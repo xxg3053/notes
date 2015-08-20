@@ -13,7 +13,7 @@
 	dbpath=D:\mongodb\data\db
 	logpath=D:\mongodb\log\mongo.log
 
-* `D:\mongodb\bin>mongod --config D:\mongodb\mongo.config --serviceName MongoDB -install` *启动并注册成服务*
+* `D:\mongodb\bin>mongod --config D:\mongodb\mongo.config --serviceName MongoDB -install`启动并注册成服务*
 
 * 启动服务 `net start MongoDB`
 
@@ -98,3 +98,9 @@
 	        console.log(err);
 	    }
 	});
+
+
+## ubuntu 下安装
+`apt-get install mongodb`
+`nano /etc/mongodb.conf`修改配置
+`mongod -f /etc/mongodb.conf`以配置文件方式启动
