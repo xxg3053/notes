@@ -38,3 +38,5 @@
 * pretty json  
 	* ctrl+alt+j 格式化json字符串
 	* ctrl+alt+m 压缩json字符串
+
+* IMESupport  中文bug
