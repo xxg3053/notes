@@ -20,4 +20,21 @@ swagger 是一个可视化RESTful WebService的工具。
 	cd swagger-editor
 	npm start
 
+## 集成springmvc
+* 通过maven下载相关jar
+* 注解配置
+* 访问{projectName}/api-docs路径
+* [github](https://github.com/swagger-api/swagger-codegen/tree/master/samples/server/petstore/spring-mvc)
+
+### java 注解
+
+1. 编写配置类 
+
+[教程](http://www.mamicode.com/info-detail-525592.html)
+
+	@Configuration 配置注解，自动在本类上下文加载一些环境变量信息
+	@EnableWebMvc 
+	@EnableSwagger 使swagger生效
+	@ComponentScan("com.kenfo.packages") 需要扫描的包路径
+
 
