@@ -103,4 +103,12 @@
 ## ubuntu 下安装
 `apt-get install mongodb`
 `nano /etc/mongodb.conf`修改配置
+
+	port=27017  
+	dbpath=data/db  
+	logpath=log/mongodb.log  
+	logappend=true  
+	fork=true 
+
 `mongod -f /etc/mongodb.conf`以配置文件方式启动
+`/bin/mongod --dbpath=/data/db --fork --logpath=/var/log/mongodb/mongodb.log `后台启动
