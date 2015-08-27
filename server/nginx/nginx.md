@@ -27,5 +27,11 @@
 		}
 	}
 
+## 命令
+`start nginx` //启动
+`nginx -s stop` //停止
+`nginx -s reload`//重启
+
+
 
 
