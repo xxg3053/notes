@@ -127,3 +127,21 @@
 	在 /home/oracle与 /root用户目录下的.bash_profile中 
 	添加或修改 export NLS_LANG="AMERICAN_AMERICA.UTF8" 语句 
 	关闭当前ssh窗口。 
+
+
+
+## Orcale 11g 以上导入导出(exp不导出空表)
+
+	SQL> create directory expdp_dir as 'D:\mzl\backup ';
+	SQL> grant read,write on directory expdp_dir to test；
+
+	从一个用户expdp导出再impdp导入到另一个用户 
+	如果想导入的用户已经存在:
+	1. 导出用户 expdp user1/pass1 directory=dumpdir dumpfile=user1.dmp
+	2. 导入用户 impdp user2/pass2 directory=dumpdir dumpfile=user1.dmp REMAP_SCHEMA=user1:user2 EXCLUDE=USER full=y;
+	如果想导入的用户不存在:
+	1. 导出用户 expdp user1/pass1 directory=dumpdir dumpfile=user1.dmp
+	2. 导入用户 impdp system/passsystem directory=dumpdir dumpfile=user1.dmp REMAP_SCHEMA=user1:user2 full=y;
+	3. user2会自动建立，其权限和使用的表空间与user1相同，但此时用user2无法登录，必须修改user2的密码
+来源：[http://blog.csdn.net/giianhui/article/details/7788550](http://blog.csdn.net/giianhui/article/details/7788550)
+
