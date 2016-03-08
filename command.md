@@ -20,3 +20,11 @@
 	`screen -r 1038 ` 进去
 	`ctrl+a+k` 关掉
 	`screen -D  -r ＜session-id>`  状态为Attached的解决办法
+
+## 授权
+
+	sudo chmod 600 ××× （只有所有者有读和写的权限）
+	sudo chmod 644 ××× （所有者有读和写的权限，组用户只有读的权限）
+	sudo chmod 700 ××× （只有所有者有读和写以及执行的权限）
+	sudo chmod 666 ××× （每个人都有读和写的权限）
+	sudo chmod 777 ××× （每个人都有读和写以及执行的权限）
