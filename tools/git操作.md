@@ -35,6 +35,12 @@
 
 `git branch` 查看本地分支
 
+`git branch xxxx` 创建分支
+
 `git checkout secondBranch` 切换到secondBranch分支
 
 `git branch -d xxxxx` 删除本地分支
+
+`git branch xxxx` 创建分支
+
+`git push origin gh-pages:gh-pages`  提交本地gh-pages分支作为远程的gh-pages分支
